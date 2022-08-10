@@ -1,0 +1,16 @@
+name: StaffChatX
+version: '${project.version}'
+main: xyz.deliable.StaffChatX
+authors: [ Deliable ]
+description: Staff chat, as simple as rocket science.
+website: www.deliable.xyz
+
+commands:
+  staffchat:
+    description: Staff chat command.
+    usage: /<command> [message]
+    aliases: sc
+  staffchatadmin:
+    description: Staff chat admin command.
+    usage: /<command>
+    aliases: sca

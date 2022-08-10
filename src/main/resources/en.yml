@@ -1,0 +1,23 @@
+command:
+  succesfulToggle: "&aSuccesfully toggled staff chat mode! Current staff chat mode:&r %status%"
+  succesfulMessage: "&aMessage sent succesfully!"
+  reload: "&aReloaded every file!"
+  noPermission: "&cYou don't have enough permissions."
+  help:
+    # %command% will get replaced with the command that user executed. If user executed /sca, then %command% will get replaced with "sca".
+    - "&6&lSTAFF&e&lCHAT &f- &7Help"
+    - ""
+    - "&e/%command%: &fShows this message."
+    - "&e/%command% reload: &fReloads every file."
+  invalidArg: "&cInvalid argument(s)."
+
+status:
+  on: "&a&lOn"
+  off: "&c&lOff"
+
+modes:
+  toggle: "&eToggle Mode"
+  command: "&eCommand Mode"
+
+format:
+  online: "&7[&6&lSTAFF&e&lCHAT &f|&r %mode% &7] &e%player%:&r %message%"
